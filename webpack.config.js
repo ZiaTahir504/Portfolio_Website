@@ -30,7 +30,7 @@ module.exports = {
     },
     devtool: 'eval-source-map',
     resolve: {
-      extensions: ['.js', '.jsx'],
+      extensions: ['.jsx', '.js'],
       fallback: {
         path: require.resolve('path-browserify'),
         fs: false,
