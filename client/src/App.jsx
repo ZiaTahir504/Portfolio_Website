@@ -6,7 +6,7 @@ import Projects from './components/Projects.jsx';
 
 const App = () => {
     return (
-        <div id="projectContainer">
+        <div>
             <Header />
             <Projects />
         </div>

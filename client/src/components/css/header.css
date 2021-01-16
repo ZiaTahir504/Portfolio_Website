@@ -5,24 +5,28 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     outline: 0;
 }
 
-#projectContainer {
-    flex-direction: "column";
+body {
+    overflow-x: hidden;
+}
+
+#elementOne {
+    height: 40vw;
 }
 
 #headerParentContainer {
     height: 28vw;
-    width: 100vw;
+    width: 100;
     background-color: #f49f0a;
-    flex-direction: row
+    flex-direction: row;
 }
 
 #headerTextContainer {
     float: left;
     height: 100%;
-    width: 50vw;
+    width: 50%;
 }
 
-#myName, #myStatus {
+#myName, #myStatusOne {
     font-family: 'Roboto', sans-serif;
     font-weight: 200;
 }
@@ -31,20 +35,29 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     color: white;
     font-size: 9vw;
     margin-left: 8%;
-    margin-top: 10%;
+    margin-top: 24%;
 }
 
-#myStatus {
+#myStatusOne {
     color: #172121;
     margin-top: 0;
     font-size: 4vw;
-    margin-left: 9%;
+    margin-left: 18%;
+}
+
+#myStatusTwo {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+    margin-top: 0;
+    font-size: 4vw;
+    margin-left: 15.5%;
+    color: #f49f0a;
 }
 
 #imageContainer {
     float: right;
     height: 100%;
-    width: 50vw;
+    width: 50%;
 }
 
 #myPhoto {
@@ -53,5 +66,6 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     float: right;
     margin-right: 8%;
     margin-top: 10%;
+    border-radius: 3%;
 }
 
