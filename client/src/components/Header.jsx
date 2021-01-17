@@ -7,7 +7,7 @@ import myPhoto from '../../assets/myPhoto.png';
 const Header = () => {
     return (
         <div id="elementOne">
-            <Grid container spacing={1} id="headerParentContainer">
+            <Grid container id="headerParentContainer" spacing={0}>
                 <Grid item xs={12} md={6}>
                     <header id="headerTextContainer">
                         <h1 id="myName">Hey, I'm Zia</h1>
