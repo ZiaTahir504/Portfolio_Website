@@ -1,32 +1,8 @@
-#cardsContainer {
-    width: 100%;
-    height: auto;
-}
-
-#cardOneHolder, #cardTwoHolder {
+.project {
     display: flex;
+    justify-content: center;
     align-items: center;
-    flex-direction: column;
-    background-color: rgba(115,135,123, .2);
-    margin-right: 4%;
-    margin-left: 4%;
-    margin-bottom: 4%;
-    border-radius: 3%;
-}
-
-#projectOne, #projectTwo {
-    margin-top: 5%;
-    margin-bottom: 5%;
-    align-items: center;
-    height: 60vw;
-    width: 40vw;
     background-color: white;
+    height: 70vh;
+    width: 70%;
 }
-
-.projectImage {
-    height: 20vw;
-}
-
-
-
-
