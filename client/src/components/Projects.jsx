@@ -12,7 +12,7 @@ import projectTwoImage from '../../assets/babili.png';
 
 const Projects = () => {
     return (  
-        <div id="cardsContainer">
+        <div id="elementTwo">
             <Grid container spacing={0}>
                 <Grid item xs={12} md={6}>
                     <div className="cardHolder">
@@ -28,7 +28,9 @@ const Projects = () => {
                                     </text>
                                     <br />
                                     <text className="projectTools">
-                                        mongoDb * express * react * node
+                                        mongoDb * express
+                                        <br />
+                                        react * node
                                     </text>
                                 </CardContent>
                             </CardActionArea>
@@ -58,7 +60,9 @@ const Projects = () => {
                                     </text>
                                     <br />
                                     <text className="projectTools">
-                                        postgreSQL * express * react native * node
+                                        postgreSQL * express 
+                                        <br />
+                                        react native * node
                                     </text>
                                 </CardContent>
                             </CardActionArea>

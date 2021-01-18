@@ -1,6 +1,7 @@
-#cardsContainer {
+#elementTwo {
     width: 100%;
     height: auto;
+    margin-top: 10%;
 }
 
 .cardHolder {
@@ -41,7 +42,7 @@
 .projectTitle {
     font-weight: 200;
     font-size: calc(1em + 2vw);
-    line-height: 2.5;
+    line-height: 2;
 }
 
 .projectAbout {
@@ -50,11 +51,5 @@
 
 .projectTools {
     color: #f49f0a;
-    font-weight: bolder;
     font-size: calc(.8em + .8vw);
-    line-height: 2;
-}
-
-.githubLink {
-    text-size-adjust: calc(.8em + .8vw);
 }

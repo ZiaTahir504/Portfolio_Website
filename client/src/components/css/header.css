@@ -17,7 +17,7 @@ body {
 }
 
 #headerParentContainer {
-    background: linear-gradient(to bottom, #f49f0a calc(1em + 27.5vw), #172121 10%);
+    background: linear-gradient(to bottom, #f49f0a calc(1em + 27.3vw), #172121 10%);
 }
 
 #headerTextContainer {
@@ -61,7 +61,6 @@ body {
     width: 80%;
     max-width: 70vw;
     min-width: 260px;
-    border-radius: 20px;
     display: block;
     margin-left: auto;
     margin-right: auto;
