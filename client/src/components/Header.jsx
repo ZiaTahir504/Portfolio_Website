@@ -2,7 +2,7 @@ import React from 'react';
 import './css/header.css';
 import Grid from "@material-ui/core/Grid";
 
-import myDrawing from '../../assets/myDrawing.png';
+import myDrawing from '../../assets/mydrawing.png';
 
 const Header = () => {
     return (

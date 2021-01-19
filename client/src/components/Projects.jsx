@@ -7,7 +7,7 @@ import CardContent from '@material-ui/core/CardContent';
 import Button from '@material-ui/core/Button';
 import Grid from '@material-ui/core/Grid'
 import GitHubIcon from '@material-ui/icons/GitHub';
-import projectOneImage from '../../assets/barkPoint.png';
+import projectOneImage from '../../assets/barkpoint.png';
 import projectTwoImage from '../../assets/babili.png';
 
 const Projects = () => {

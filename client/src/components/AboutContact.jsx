@@ -8,7 +8,7 @@ import TwitterIcon from '@material-ui/icons/Twitter';
 import EmailIcon from '@material-ui/icons/Email';
 
 
-import myPhoto from '../../assets/myPhoto.png';
+import myPhoto from '../../assets/myphoto.png';
 
 const AboutContact = () => {
     return (
