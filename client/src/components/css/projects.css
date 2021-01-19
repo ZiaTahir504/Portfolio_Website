@@ -40,7 +40,6 @@
 }
 
 .projectTitle {
-    font-weight: 200;
     font-size: calc(1em + 2vw);
     line-height: 2;
 }
