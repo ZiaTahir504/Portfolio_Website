@@ -2,7 +2,7 @@ import React from 'react';
 import './css/header.css';
 import Grid from "@material-ui/core/Grid";
 
-import myDrawing from '../../assets/mydrawing.png';
+// import myDrawing from '../../assets/mydrawing.png';
 
 const Header = () => {
     return (
@@ -17,7 +17,7 @@ const Header = () => {
                 </Grid>
                 <Grid item xs={12} md={6}>
                     <div id="imageContainer">
-                        <img id="myDrawing" src={myDrawing}></img>
+                        <img id="myDrawing" src="https://ibb.co/Yb3zgFV"></img>
                     </div>
                 </Grid>
             </Grid>

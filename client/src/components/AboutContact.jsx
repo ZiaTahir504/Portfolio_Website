@@ -8,7 +8,7 @@ import TwitterIcon from '@material-ui/icons/Twitter';
 import EmailIcon from '@material-ui/icons/Email';
 
 
-import myPhoto from '../../assets/myphoto.png';
+// import myPhoto from '../../assets/myphoto.png';
 
 const AboutContact = () => {
     return (
@@ -16,7 +16,7 @@ const AboutContact = () => {
             <Grid id="parentThree" container spacing={0}>
                 <Grid item xs={12} md={10}>
                     <div id="aboutMe">
-                        <img id="actualPhoto" src={myPhoto} />
+                        <img id="actualPhoto" src="https://ibb.co/V2xqGv1" />
                         <text id="aboutMeText">
                             I'm a psychology student turned fullstack javascript developer.
                             <br />
