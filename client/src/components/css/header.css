@@ -56,7 +56,7 @@ body {
     height: 100%;
 }
 
-#myPhoto {
+#myDrawing {
     margin-top: 8vw;
     width: 80%;
     max-width: 70vw;
@@ -64,5 +64,6 @@ body {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    border-radius: 20px;
 }
 

@@ -51,7 +51,7 @@ const Projects = () => {
                         <img src={projectTwoImage} className="projectImage"/>
                         <Card id="projectTwo">
                             <CardActionArea>
-                                <CardContent className="textHolder">
+                                <CardContent>
                                     <text className="projectTitle">Babili</text>
                                     <br />
                                     <text className="projectAbout">
