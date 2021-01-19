@@ -7,11 +7,22 @@ import CardContent from '@material-ui/core/CardContent';
 import Button from '@material-ui/core/Button';
 import Grid from '@material-ui/core/Grid'
 import GitHubIcon from '@material-ui/icons/GitHub';
+import { makeStyles } from "@material-ui/core/styles";
 
 import barkpoint from '../../assets/barkpoint.png';
 import babili from '../../assets/babili.png';
 
+const useStyles = makeStyles({
+    actionArea: {
+      "&:hover $focusHighlight": {
+        opacity: 0
+      }
+    },
+    focusHighlight: {}
+  });
+
 const Projects = () => {
+    const classes = useStyles();
     return (  
         <div id="elementTwo">
             <Grid container spacing={0}>
@@ -19,7 +30,7 @@ const Projects = () => {
                     <div className="cardHolder">
                         <img src={barkpoint} className="projectImage"/>
                         <Card id="projectOne">
-                            <CardActionArea>
+                            <CardActionArea classes={{ root: classes.actionArea, focusHighlight: classes.focusHighlight }}>
                                 <CardContent className="textHolder">
                                     <text className="projectTitle">Bark Point</text>
                                     <br />
@@ -37,6 +48,7 @@ const Projects = () => {
                             </CardActionArea>
                             <CardActions>
                                 <Button 
+                                    style={{ color: 'white' }}
                                     variant="outlined"
                                     onClick={() => window.open('https://github.com/Bajamen/BarkPoint', '_blank')}
                                     startIcon={<GitHubIcon />}
@@ -51,7 +63,7 @@ const Projects = () => {
                     <div className='cardHolder'>
                         <img src={babili} className="projectImage"/>
                         <Card id="projectTwo">
-                            <CardActionArea>
+                            <CardActionArea classes={{ root: classes.actionArea, focusHighlight: classes.focusHighlight }}>
                                 <CardContent>
                                     <text className="projectTitle">Babili</text>
                                     <br />
@@ -69,6 +81,7 @@ const Projects = () => {
                             </CardActionArea>
                             <CardActions>
                                 <Button
+                                    style={{ color: 'white' }}
                                     variant="outlined"
                                     onClick={() => window.open('https://github.com/CSL-CodingAsASecondLanguage/Babili', '_blank')}
                                     startIcon={<GitHubIcon />}
