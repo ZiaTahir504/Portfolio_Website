@@ -8,7 +8,7 @@ const distPath = path.join(__dirname, '../client/dist');
 app.use(express.json());
 app.use(express.static(distPath));
 
-app.get('*', (req, res) => {
+app.get('/', (req, res) => {
   res.send(path.join(distPath, 'index.html'));
 });
 
