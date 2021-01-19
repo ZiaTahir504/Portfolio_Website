@@ -9,7 +9,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon server/index.js",
-    "prod": "webpack --watch"
+    "prod": "webpack --watch",
+    "postinstall": "npm run prod"
   },
   "author": "",
   "license": "ISC",
