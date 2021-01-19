@@ -10,6 +10,7 @@ module.exports = {
     entry: srcPath,
     output: {
       path: distPath,
+      publicPath: '/',
       filename: 'bundle.js',
     },
     module: {
