@@ -3,13 +3,12 @@ const path = require('path');
 const app = express()
 
 const port = process.env.PORT
-const distPath = path.join(__dirname, '../client/dist');
 
 app.use(express.json());
-app.use(express.static(distPath));
+app.use(express.static('client\dist\index.html'));
 
 app.get('*', (req, res) => {
-  res.send(path.join(distPath, 'index.html'));
+  res.send('client\dist\index.html');
 });
 
 app.listen(port, () => {
