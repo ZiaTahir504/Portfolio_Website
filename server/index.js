@@ -9,7 +9,7 @@ app.use(express.json());
 app.use(express.static(distPath));
 
 app.get('/', (req, res) => {
-  res.render(path.join(distPath, 'index.html'));
+  res.send(path.join(distPath, 'index.html'));
 });
 
 app.listen(port, () => {

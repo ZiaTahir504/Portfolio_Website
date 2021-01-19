@@ -40,7 +40,7 @@ const Projects = () => {
                                     onClick={() => window.open('https://github.com/Bajamen/BarkPoint', '_blank')}
                                     startIcon={<GitHubIcon />}
                                 >
-                                    repo on github
+                                    repo
                                 </Button>
                             </CardActions>
                         </Card>
@@ -72,7 +72,7 @@ const Projects = () => {
                                     onClick={() => window.open('https://github.com/CSL-CodingAsASecondLanguage/Babili', '_blank')}
                                     startIcon={<GitHubIcon />}
                                 >
-                                    repo on github
+                                    repo
                                 </Button>
                             </CardActions>
                         </Card>

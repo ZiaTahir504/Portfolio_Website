@@ -1,16 +1,12 @@
 {
   "name": "portfolio_website",
   "version": "1.0.0",
-  "engines": {
-    "node": "14.15.3"
-  },
   "description": "",
   "main": "webpack.config.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon server/index.js",
-    "prod": "webpack --watch",
-    "postinstall": "npm run prod"
+    "prod": "webpack --watch"
   },
   "author": "",
   "license": "ISC",
