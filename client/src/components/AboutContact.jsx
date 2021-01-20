@@ -2,20 +2,23 @@ import React from 'react';
 import './css/aboutcontact.css'
 import Grid from '@material-ui/core/Grid'
 import { IconButton } from '@material-ui/core';
+import AccountBoxIcon from '@material-ui/icons/AccountBox';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
-import TwitterIcon from '@material-ui/icons/Twitter';
 import EmailIcon from '@material-ui/icons/Email';
 
 import photo from '../../assets/photo.png';
+import resume from '../../assets/resume.pdf';
 
 const AboutContact = () => {
     return (
         <div id="elementThree">
-            <Grid id="parentThree" container spacing={0}>
-                <Grid item xs={12} md={10}>
-                    <div id="aboutMe">
+            <div id="aboutMe">
+                <Grid id="parentThree" container spacing={0}>
+                    <Grid item xs={12} md={4}>
                         <img id="actualPhoto" src={photo} />
+                    </Grid>
+                    <Grid item xs={12} md={8}>
                         <text id="aboutMeText">
                             I'm a psychology student turned fullstack javascript developer.
                             <br />
@@ -23,32 +26,31 @@ const AboutContact = () => {
                             conversation or code.
                             <br />
                             I love art, humor, and horror movies!
+                            <br />
                         </text>
-                    </div>
+                    </Grid>
                 </Grid>
-            </Grid>
+            </div>
             <div id="connect">
                 <text id="letsConnect">let's connect</text>
                 <div id="buttonsContainer">
                     <IconButton>
-                        <GitHubIcon 
-                            style={{ color: 'white' }}
+                        <GitHubIcon className="iconButton"
                             onClick={() => window.open('https://github.com/ZiaTahir504', '_blank')}
                         />
                     </IconButton> 
                     <IconButton>
-                        <LinkedInIcon 
-                            style={{ color: 'white' }} 
+                        <LinkedInIcon className="iconButton"
                             onClick={() => window.open('https://www.linkedin.com/in/zia-tahir-814a01203/', '_blank')}
                         />
                     </IconButton>
                     <IconButton>
-                        <TwitterIcon 
-                            style={{ color: 'white' }} />
+                        <AccountBoxIcon className="iconButton" 
+                            onClick={() => window.open(resume, '_blank')}
+                        />
                     </IconButton>
                     <IconButton>
-                        <EmailIcon 
-                            style={{ color: 'white' }} 
+                        <EmailIcon className="iconButton"
                             onClick={() => location.href="mailto:mariatahir504@gmail.com"}
                             />
                     </IconButton>

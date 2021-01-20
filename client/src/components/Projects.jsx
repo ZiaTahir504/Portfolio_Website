@@ -65,7 +65,7 @@ const Projects = () => {
                                 <text className="projectTitle">Babili</text>
                                 <br />
                                 <text className="projectAbout">
-                                    Practice English in a variety of
+                                    Practice conversational English in a variety of
                                     fun and accessibility focused ways.
                                 </text>
                                 <br />

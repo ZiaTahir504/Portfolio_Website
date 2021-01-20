@@ -22,11 +22,13 @@
 }
 
 #actualPhoto {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     object-fit: cover;
     padding: 2vw; 
-    width: 50%;
-    max-width: 50vw;
-    min-width: 60px;
+    max-width: 60vw;
+    min-width: calc(1em + 25vw);
     image-rendering: crisp-edges;
 }
 
@@ -37,6 +39,9 @@
     line-height: 1.5;
     color: white;
     margin: 2vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #connect {
@@ -47,11 +52,27 @@
 #letsConnect {
     font-family: 'Roboto', sans-serif;
     font-weight: 200;
-    font-size: 3em;
-    color:  #f49f0a;
+    font-size: calc(1em + 1vw);
+    color:#f49f0a;
 }
 
-.IconButton:hover .Iconclass {
-    background-color:#f49f0a;
-  }
+.iconButton {
+    color:white;
+}
+
+.iconButton:hover {
+    color:#f49f0a;
+}
+
+a {
+    color: white;
+    font-size: calc(.5em + .5vw);
+    font-weight: 200;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #172121;
+}
 
