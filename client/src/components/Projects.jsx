@@ -30,22 +30,20 @@ const Projects = () => {
                     <div className="cardHolder">
                         <img src={barkpoint} className="projectImage"/>
                         <Card id="projectOne">
-                            <CardActionArea classes={{ root: classes.actionArea, focusHighlight: classes.focusHighlight }}>
-                                <CardContent className="textHolder">
-                                    <text className="projectTitle">Bark Point</text>
+                            <CardContent className="textHolder">
+                                <text className="projectTitle">Bark Point</text>
+                                <br />
+                                <text className="projectAbout">
+                                    Find the perfect toy suited for your dogs
+                                    personality and a nearby park to play in.
+                                </text>
+                                <br />
+                                <text className="projectTools">
+                                    mongoDb * express
                                     <br />
-                                    <text className="projectAbout">
-                                        Find the perfect toy suited to your dogs
-                                        personality and a nearby park to play in.
-                                    </text>
-                                    <br />
-                                    <text className="projectTools">
-                                        mongoDb * express
-                                        <br />
-                                        react * node
-                                    </text>
-                                </CardContent>
-                            </CardActionArea>
+                                    react * node
+                                </text>
+                            </CardContent>
                             <CardActions>
                                 <Button 
                                     style={{ color: 'white' }}
@@ -63,22 +61,20 @@ const Projects = () => {
                     <div className='cardHolder'>
                         <img src={babili} className="projectImage"/>
                         <Card id="projectTwo">
-                            <CardActionArea classes={{ root: classes.actionArea, focusHighlight: classes.focusHighlight }}>
-                                <CardContent>
-                                    <text className="projectTitle">Babili</text>
+                            <CardContent>
+                                <text className="projectTitle">Babili</text>
+                                <br />
+                                <text className="projectAbout">
+                                    Practice English in a variety of
+                                    fun and accessibility focused ways.
+                                </text>
+                                <br />
+                                <text className="projectTools">
+                                    postgreSQL * express 
                                     <br />
-                                    <text className="projectAbout">
-                                        Practice English in a variety of
-                                        fun and accessibility focused ways.
-                                    </text>
-                                    <br />
-                                    <text className="projectTools">
-                                        postgreSQL * express 
-                                        <br />
-                                        react native * node
-                                    </text>
-                                </CardContent>
-                            </CardActionArea>
+                                    react native * node
+                                </text>
+                            </CardContent>
                             <CardActions>
                                 <Button
                                     style={{ color: 'white' }}
