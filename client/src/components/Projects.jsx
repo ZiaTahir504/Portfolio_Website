@@ -27,37 +27,6 @@ const Projects = () => {
         <div id="elementTwo">
             <Grid container spacing={0}>
                 <Grid item xs={12} md={6}>
-                    <div className="cardHolder">
-                        <img src={barkpoint} className="projectImage"/>
-                        <Card id="projectOne">
-                            <CardContent className="textHolder">
-                                <text className="projectTitle">Bark Point</text>
-                                <br />
-                                <text className="projectAbout">
-                                    Find the perfect toy suited for your dogs
-                                    personality and a nearby park to play in.
-                                </text>
-                                <br />
-                                <text className="projectTools">
-                                    mongoDb * express
-                                    <br />
-                                    react * node
-                                </text>
-                            </CardContent>
-                            <CardActions>
-                                <Button 
-                                    style={{ color: 'white' }}
-                                    variant="outlined"
-                                    onClick={() => window.open('https://github.com/Bajamen/BarkPoint', '_blank')}
-                                    startIcon={<GitHubIcon />}
-                                >
-                                    repo
-                                </Button>
-                            </CardActions>
-                        </Card>
-                    </div>
-                </Grid>
-                <Grid item xs={12} md={6}>
                     <div className='cardHolder'>
                         <img src={babili} className="projectImage"/>
                         <Card id="projectTwo">
@@ -80,6 +49,37 @@ const Projects = () => {
                                     style={{ color: 'white' }}
                                     variant="outlined"
                                     onClick={() => window.open('https://github.com/CSL-CodingAsASecondLanguage/Babili', '_blank')}
+                                    startIcon={<GitHubIcon />}
+                                >
+                                    repo
+                                </Button>
+                            </CardActions>
+                        </Card>
+                    </div>
+                </Grid>
+                <Grid item xs={12} md={6}>
+                    <div className="cardHolder">
+                        <img src={barkpoint} className="projectImage"/>
+                        <Card id="projectOne">
+                            <CardContent className="textHolder">
+                                <text className="projectTitle">Bark Point</text>
+                                <br />
+                                <text className="projectAbout">
+                                    Find the perfect toy suited for your dogs
+                                    personality along with a nearby park to play in.
+                                </text>
+                                <br />
+                                <text className="projectTools">
+                                    mongoDb * express
+                                    <br />
+                                    react * node
+                                </text>
+                            </CardContent>
+                            <CardActions>
+                                <Button 
+                                    style={{ color: 'white' }}
+                                    variant="outlined"
+                                    onClick={() => window.open('https://github.com/Bajamen/BarkPoint', '_blank')}
                                     startIcon={<GitHubIcon />}
                                 >
                                     repo
