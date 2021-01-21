@@ -15,11 +15,12 @@
     box-shadow: 2px 5px 10px #141a1a;
     height: fit-content;
     min-height: 60vw;
+    transition: 0.4s;
 }
 
 .cardHolder:hover {
     margin: 8.6%;
-    background-color: rgba(80, 87, 83, 0.18);
+    background-color: rgba(80, 87, 83, 0.15);
     box-shadow: 6px 15px 38px #141a1a;
 }
 
@@ -36,8 +37,10 @@
 .projectImage {
     padding-top: 5%;
     max-height: 300px;
-    width: 300px;
+    width: 400px;
     max-width: 60vw;
+    margin-left: 6vw;
+    text-shadow: 1px 1px 1px #141a1a;
 }
 
 .projectAbout, .projectTools, .projectTitle {

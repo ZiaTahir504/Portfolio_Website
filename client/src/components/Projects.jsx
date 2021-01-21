@@ -9,8 +9,8 @@ import Grid from '@material-ui/core/Grid'
 import GitHubIcon from '@material-ui/icons/GitHub';
 import { makeStyles } from "@material-ui/core/styles";
 
-import barkpoint from '../../assets/barkpoint.png';
-import babili from '../../assets/babili.png';
+import barkpoint from '../../assets/barkpoint2.png';
+import babili from '../../assets/babili2.png';
 
 const useStyles = makeStyles({
     actionArea: {

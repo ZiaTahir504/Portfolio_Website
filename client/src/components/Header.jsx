@@ -16,8 +16,8 @@ const Header = () => {
                 <Grid item xs={12} md={6}>
                     <header id="headerTextContainer">
                         <h1 id="myName">Hey, I'm Zia</h1>
-                        <h3 id="myStatusOne">full time developer</h3>
-                        <h3 id="myStatusTwo">part time doodler</h3>   
+                        <h3 id="myStatusOne">full-time developer</h3>
+                        <h3 id="myStatusTwo">part-time doodler</h3>   
                     </header>
                 </Grid>
                 <Grid item xs={12} md={6}>
