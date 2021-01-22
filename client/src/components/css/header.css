@@ -17,11 +17,11 @@ body {
 }
 
 #headerParentContainer {
-    background: linear-gradient(to bottom, #f49f0a calc(1em + 27.3vw), #172121 10%);
+    background: linear-gradient(to bottom, #f49f0a calc(1em + 23.3vw), #172121 10%);
 }
 
 #headerTextContainer {
-    margin-top: 12vw;
+    margin-top: 8vw;
     margin-left: 3vw;
 }
 
@@ -57,7 +57,7 @@ body {
 }
 
 #myDrawing {
-    margin-top: 8vw;
+    margin-top: 4vw;
     width: 80%;
     max-width: 70vw;
     min-width: 260px;

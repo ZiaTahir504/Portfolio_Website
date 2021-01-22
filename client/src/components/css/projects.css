@@ -19,8 +19,8 @@
 }
 
 .cardHolder:hover {
-    margin: 8.6%;
-    background-color: rgba(80, 87, 83, 0.15);
+    margin: 8.4%;
+    background-color: rgba(80, 87, 83, 0.16);
     box-shadow: 6px 15px 38px #141a1a;
 }
 
