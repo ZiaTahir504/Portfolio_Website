@@ -42,7 +42,7 @@ const AboutContact = () => {
                     </IconButton> 
                     <IconButton>
                         <LinkedInIcon className="iconButton"
-                            onClick={() => window.open('https://www.linkedin.com/in/zia-tahir-814a01203/', '_blank')}
+                            onClick={() => window.open('https://www.linkedin.com/in/maria-zia-tahir/', '_blank')}
                         />
                     </IconButton>
                     <IconButton>
