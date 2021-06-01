@@ -9,7 +9,7 @@ import EmailIcon from '@material-ui/icons/Email';
 import TwitterIcon from '@material-ui/icons/Twitter';
 
 import photo from '../../assets/photo.png';
-import resume from '../../assets/resume.pdf';
+import resume from '../../assets/Resume.pdf';
 
 const AboutContact = () => {
     return (

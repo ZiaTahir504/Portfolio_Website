@@ -1,7 +1,6 @@
 import React from 'react';
 import './css/projects.css'
 import Card from '@material-ui/core/Card';
-import CardActionArea from '@material-ui/core/CardActionArea';
 import CardActions from '@material-ui/core/CardActions';
 import CardContent from '@material-ui/core/CardContent';
 import Button from '@material-ui/core/Button';
@@ -11,6 +10,7 @@ import { makeStyles } from "@material-ui/core/styles";
 
 import barkpoint from '../../assets/barkpoint2.png';
 import babili from '../../assets/babili2.png';
+import spooky from '../../assets/spookyworld.png';
 
 const useStyles = makeStyles({
     actionArea: {
@@ -26,6 +26,36 @@ const Projects = () => {
     return (  
         <div id="elementTwo">
             <Grid container spacing={0}>
+                <Grid item xs={12} md={6}>
+                    <div className="cardHolder">
+                        <img src={spooky} className="projectImage"/>
+                        <Card id="projectThree">
+                            <CardContent className="textHolder">
+                                <text className="projectTitle">Spooky World</text>
+                                <br />
+                                <text className="projectAbout">
+                                    (Work in Progress) Database of horror movies, games, and other media. 
+                                </text>
+                                <br />
+                                <text className="projectTools">
+                                    mongoDb * express
+                                    <br />
+                                    react * node
+                                </text>
+                            </CardContent>
+                            <CardActions>
+                                <Button 
+                                    style={{ color: 'white' }}
+                                    variant="outlined"
+                                    onClick={() => window.open('https://github.com/ZiaTahir504/Horror_Movies', '_blank')}
+                                    startIcon={<GitHubIcon />}
+                                >
+                                    repo
+                                </Button>
+                            </CardActions>
+                        </Card>
+                    </div>
+                </Grid>
                 <Grid item xs={12} md={6}>
                     <div className='cardHolder'>
                         <img src={babili} className="projectImage"/>
