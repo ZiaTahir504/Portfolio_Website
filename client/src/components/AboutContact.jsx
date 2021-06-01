@@ -1,7 +1,7 @@
 import React from 'react';
 import './css/aboutcontact.css'
 import Grid from '@material-ui/core/Grid'
-import { Icon, IconButton } from '@material-ui/core';
+import { IconButton } from '@material-ui/core';
 import AccountBoxIcon from '@material-ui/icons/AccountBox';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
@@ -9,7 +9,7 @@ import EmailIcon from '@material-ui/icons/Email';
 import TwitterIcon from '@material-ui/icons/Twitter';
 
 import photo from '../../assets/photo.png';
-import resume from '../../assets/Resume.pdf';
+import resume from '../../assets/resume.pdf';
 
 const AboutContact = () => {
     return (
