@@ -21,7 +21,7 @@ const AboutContact = () => {
                     </Grid>
                     <Grid item xs={12} md={8}>
                         <text id="aboutMeText">
-                            I'm a psychology student turned fullstack javascript developer.
+                            I'm a psychology student turned fullstack software developer.
                             <br />
                             Connecting with people is my passion, whether that be through
                             conversation or code.
