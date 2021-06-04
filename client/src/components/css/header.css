@@ -28,6 +28,8 @@ body {
 #myName, #myStatusOne {
     font-family: 'Roboto', sans-serif;
     font-weight: 200;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+
 }
 
 #myName {
